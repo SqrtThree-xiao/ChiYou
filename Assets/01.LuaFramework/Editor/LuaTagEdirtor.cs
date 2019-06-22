@@ -1,15 +1,15 @@
-﻿using UnityEditor;
+﻿// using UnityEditor;
 
-public class LuaTagEdirtor : Editor {
+// public class LuaComponentEdirtor : Editor {
 
-	//TODO 加载.lua文件资源
-	[CustomEditor(typeof(LuaTag))]
-	public override void OnInspectorGUI()
-	{
-		serializedObject.Update();
+// 	//TODO 加载.lua文件资源
+// 	[CustomEditor(typeof(LuaComponent))]
+// 	public override void OnInspectorGUI()
+// 	{
+// 		serializedObject.Update();
 		
-		EditorGUILayout.PropertyField(serializedObject.FindProperty("objects"), true);
+// 		EditorGUILayout.PropertyField(serializedObject.FindProperty("luaTable"), true);
 		
-		serializedObject.ApplyModifiedProperties();
-	}
-}
+// 		serializedObject.ApplyModifiedProperties();
+// 	}
+// }
