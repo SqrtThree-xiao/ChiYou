@@ -493,3 +493,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 585bbe8cea14a3347a1b5568b5fa16ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LuaPath: Assets\01.LuaFramework\demo01
