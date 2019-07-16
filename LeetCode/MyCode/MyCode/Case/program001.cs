@@ -19,5 +19,12 @@ namespace MyCode.Case
     class program001
     {
 
+
+        public int[] TwoSum(int[] sums, int target)
+        {
+            int[] result = null;
+
+            return result;
+        }
     }
 }
